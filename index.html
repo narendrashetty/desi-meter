@@ -1,0 +1,108 @@
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+
+    <!-- Le styles -->
+    <link href="css/bootstrap.css" rel="stylesheet">
+    <style type="text/css">
+      body {
+        padding-top: 0px;
+        padding-bottom: 0px;
+      }
+	  		#slider-one { width: 500px; }
+		#slider-one > li { width: 300px; }
+    </style>
+    <link href="css/bootstrap-responsive.css" rel="stylesheet">
+	<link href='http://fonts.googleapis.com/css?family=Titillium+Web:400,200' rel='stylesheet' type='text/css'>
+<link rel="stylesheet" href="css/fontello.css">
+	<link href="css/movingboxes.css" rel="stylesheet">
+	<!--[if lt IE 9]>
+	<link href="css/movingboxes-ie.css" rel="stylesheet" media="screen">
+	<![endif]-->
+
+	<!-- Required script -->
+
+<link href="css/jquery.mCustomScrollbar.css" rel="stylesheet" type="text/css" />
+	<!-- Demo only -->
+	<link href="css/demo.css" rel="stylesheet">
+	
+				<script src="http://code.jquery.com/jquery-1.10.2.min.js"></script>
+	<script type="text/javascript" src="js/bootstrap.js"></script>
+	<script src="js/meter.js"></script>
+
+
+	<script src="js/jquery.movingboxes.js"></script>
+
+  </head>
+
+  <body>
+
+    <div class="container">
+      <div class="headed" style="">
+		<div class="span2">
+		<h3 class="muted">DesiMeter</h3>
+		</div>
+      </div>
+
+      <div class="row-fluid banner">
+        <div class="span12">
+		<div class="wrapper">
+
+		<div class="span2" style="margin-top: 18%;position: absolute;margin-left: 20px;color: #fff;font-size: 28px;">
+		Total Tweets <span id="tweets"></span>
+		</div>
+		<div class="span2 pull-right" style="margin-top: 18%;position: absolute;margin-left: 65%;color: #fff;font-size: 28px;">
+		Sentiment <span id="sentiment"></span>
+		</div>
+		<!-- Slider #1 -->
+		<ul id="slider-one">
+
+
+		</ul>
+		</div>
+		</div>
+		<!--
+		<div class="span6 info pull-right">
+		<div title="Code: 0xe803" class="the-icons span3"><i class="icon-twitter-1"></i> <p id="tweet">6.4K</p><p class="info-desc">Total Tweets</p></div>
+		<div title="Code: 0xe801" class="the-icons span3"><i class="icon-heart-empty"></i> <p id="fs">6.4K</p><p class="info-desc">Fan Sentiment</p></div>
+        <div title="Code: 0xe802" class="the-icons span3"><i class="icon-star"></i> <p id="cs">6.4K</p><p class="info-desc">Critics Sentiment</p></div>
+  
+		</div>
+		-->
+      </div>
+
+      <div class="row-fluid sub">
+    <div class="span3" style="margin-left:20px;margin-top:20px;">
+		<div id="cn_list" class="cn_list">
+				
+		</div>
+		</div>
+		
+		<div class="span3" style="margin-top:20px;margin-left:20px">
+		<div id="cn_list1" class="cn_list1">
+				
+		</div>
+		</div>
+		<div class="span5" style="margin-top:20px;margin-left:20px;">
+		<table class="table table-bordered" id="leader">
+		<tr>
+                  <th>Name</th>
+                  <th>Total Tweets</th>
+                  <th>Sentiment</th>
+        </tr>		
+</table>
+
+
+      </div>
+
+
+    </div> <!-- /container -->
+
+    <!-- Le javascript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+
+	
+</body>
+</html>
